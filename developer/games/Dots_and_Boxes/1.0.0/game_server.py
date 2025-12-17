@@ -1,9 +1,3 @@
-"""
-遊戲伺服器範本
-此檔案會被 main_server 透過 subprocess 呼叫執行
-命令格式: python game_server.py 
-"""
-
 import socket
 import sys
 import random

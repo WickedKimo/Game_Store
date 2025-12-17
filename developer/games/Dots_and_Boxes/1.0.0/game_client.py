@@ -1,9 +1,3 @@
-"""
-遊戲客戶端範本
-此檔案會被 player client 透過 subprocess 呼叫執行
-命令格式: python game_client.py  
-"""
-
 import socket
 import sys
 import threading
