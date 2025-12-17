@@ -1,0 +1,8 @@
+{
+  "name": "Imposter",
+  "version": "1.0.0",
+  "author": "Kimo",
+  "game_type": "CLI",
+  "min_players": 3,
+  "max_players": 5
+}

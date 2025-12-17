@@ -1,0 +1,8 @@
+{
+  "name": "Duel_25",
+  "version": "1.0.0",
+  "author": "Kimo",
+  "game_type": "CLI",
+  "min_players": 2,
+  "max_players": 2
+}
