@@ -584,7 +584,7 @@ class MainServer:
         base_dir = Path(__file__).parent
         game_path = base_dir / "games" / game_name / version
         game_server = game_path / "game_server.py"
-        lobby_host = "140.113.69.9"
+        lobby_host = "140.113.17.11"
         try:
             process = subprocess.Popen(
                 [

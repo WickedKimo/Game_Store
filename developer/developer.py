@@ -70,7 +70,7 @@ def recv_exact(sock: socket.socket, n: int) -> Optional[bytes]:
     return bytes(data)
 
 
-SERVER_HOST = 'localhost'
+SERVER_HOST = "140.113.17.11"
 SERVER_PORT = 26969
 
 class DeveloperClient:
