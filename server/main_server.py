@@ -232,7 +232,7 @@ class MainServer:
             'data': {"filter": {"userName": name}}
         })
 
-        if existing[0]:
+        if existing:
             return {'success': False, 'error': 'Username already registered'}
         
         password_hash = hashlib.sha256(password.encode()).hexdigest()
