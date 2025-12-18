@@ -260,7 +260,8 @@ class PlayerClient:
                         print(f"Members: {', '.join(room_info['members'])}")
                         print(f"Status: {room_info['status']}")
                     
-                    print("\n1. Invite User to Room")
+                    # print("\n1. Invite User to Room")
+                    print("\n1. List Online Users")
                     print("2. Start/Join Game")
                     print("3. Refresh room status")
                     print("4. Leave Room")
@@ -269,7 +270,7 @@ class PlayerClient:
                         choice = input("\nEnter choice: ").strip()
                         
                         if choice == '1':
-                            self.list_players(invite=True)
+                            self.list_players(invite=False)
                         
                         elif choice == '2':
                             self.join_game(room_info)
